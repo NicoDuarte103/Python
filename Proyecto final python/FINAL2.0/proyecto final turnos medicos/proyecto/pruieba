@@ -1,0 +1,18 @@
+import customtkinter as ctk
+
+class MiAplicacion:
+    def __init__(self, ventana):
+        self.ventana = ventana
+
+        # Crear un CTkFrame con esquinas redondeadas
+        self.frame = ctk.CTkFrame(self.ventana, width=300, height=200, corner_radius=30, fg_color="blue")
+        self.frame.pack(padx=20, pady=20)
+
+        # Agregar un botón dentro del frame
+        self.boton = ctk.CTkButton(self.frame, text="Botón dentro del Frame")
+        self.boton.pack(pady=20)
+
+# Crear la ventana y ejecutar la aplicación
+root = ctk.CTk()
+app = MiAplicacion(root)
+root.mainloop()
