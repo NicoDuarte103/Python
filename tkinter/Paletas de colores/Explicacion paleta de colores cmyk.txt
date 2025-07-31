@@ -1,0 +1,40 @@
+1. Principio de Mezcla de Colores
+RGB (Aditivo):
+
+Funciona sumando luz. Cuando se combinan los colores, se añade más luz.
+La mezcla de todos los colores en su máxima intensidad produce luz blanca.
+Por ejemplo, al mezclar rojo (255, 0, 0) y verde (0, 255, 0), obtienes amarillo (255, 255, 0).
+CMYK (Sustractivo):
+
+Funciona restando luz. Al aplicar tintas, se absorbe luz, lo que oscurece el color.
+La mezcla de todas las tintas al máximo produce un color oscuro o negro, no blanco.
+Por ejemplo, al mezclar cian y magenta (sin amarillo y negro), se obtienen colores como azul o violeta.
+2. Uso de Luz y Tintas
+RGB:
+
+Se utiliza en dispositivos que emiten luz, como monitores, pantallas y proyectores.
+Es adecuado para medios digitales donde la luz es la fuente de color.
+CMYK:
+
+Se utiliza en impresión, donde las tintas se aplican sobre un fondo blanco (papel).
+Es adecuado para medios impresos donde se trabaja con la absorción de luz.
+3. Colores Resultantes
+RGB:
+
+Los colores son brillantes y vibrantes porque se basan en la luz.
+Los valores pueden variar de 0 a 255 para cada componente (rojo, verde y azul).
+CMYK:
+
+Los colores pueden parecer menos saturados en comparación, debido a la absorción de luz.
+Los valores son porcentuales (0% a 100%) y representan la cantidad de cada tinta.
+4. Percepción Visual
+RGB:
+Los colores en RGB tienden a ser más brillantes y saturados debido a la luz emitida.
+CMYK:
+Los colores en CMYK pueden parecer diferentes en impresión debido a las propiedades de la tinta y el papel, y a menudo requieren ajustes en la calibración de color.
+Conclusión
+En resumen, RGB y CMYK son opuestos en términos de cómo generan y perciben el color:
+
+RGB: Aditivo, se basa en la suma de luz, se usa en medios digitales.
+CMYK: Sustractivo, se basa en la absorción de luz, se usa en impresión.
+Conocer estas diferencias es crucial para los diseñadores gráficos y cualquier persona que trabaje con colores en diferentes medios. Si tienes más preguntas o necesitas más aclaraciones, ¡no dudes en preguntar!

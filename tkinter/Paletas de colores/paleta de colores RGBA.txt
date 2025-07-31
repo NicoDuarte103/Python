@@ -1,0 +1,24 @@
+El modelo de color RGBA es una extensión del modelo RGB que incluye un canal adicional: el canal alfa. Aquí te explico cada componente de RGBA:
+
+Componentes de RGBA
+Rojo (R):
+
+Representa la intensidad del color rojo en la mezcla.
+Varía de 0 (sin intensidad) a 255 (máxima intensidad).
+Verde (G):
+
+Representa la intensidad del color verde.
+También varía de 0 a 255.
+Azul (B):
+
+Representa la intensidad del color azul.
+Al igual que los otros componentes, varía de 0 a 255.
+Alfa (A):
+
+Representa la opacidad del color.
+Varía de 0 (completamente transparente) a 255 (completamente opaco).
+Un valor de 128, por ejemplo, representaría una opacidad del 50%.
+Uso de RGBA
+Combinación de Colores: Al igual que en el modelo RGB, los valores de R, G y B se combinan para formar diferentes colores. La inclusión del canal alfa permite controlar la transparencia del color.
+
+Transparencia: Al usar RGBA, puedes crear efectos visuales como superposiciones, sombras y efectos de desvanecimiento, ya que puedes ajustar la opacidad de un color en relación a otros colores o imágenes de fondo.

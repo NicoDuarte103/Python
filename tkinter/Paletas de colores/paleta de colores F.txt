@@ -1,0 +1,15 @@
+La paleta de colores "F" en Pillow se refiere a imágenes que utilizan el modo de color "F" (punto flotante) para representar los colores. Este modo es menos común en comparación con otros modos de imagen, como "RGB" o "P", y es útil en contextos específicos, como imágenes de alta precisión o procesamiento de imágenes científicas.
+
+Características del Modo "F"
+Representación en Punto Flotante:
+
+Las imágenes en modo "F" almacenan cada componente de color (Rojo, Verde, Azul) como un valor en punto flotante. Esto permite una mayor precisión en la representación de los colores.
+Rango de Valores:
+
+Los valores de color en modo "F" generalmente están en el rango de 0.0 a 1.0, donde 0.0 representa la ausencia de color (negro) y 1.0 representa la máxima intensidad de color.
+Uso en Procesamiento de Imágenes:
+
+Este modo es especialmente útil en aplicaciones donde se requiere una alta precisión en el manejo de colores, como en la visualización de datos científicos o en gráficos generados por computadora que necesitan manipulación precisa de colores.
+Conversión a Otros Modos:
+
+Aunque puedes manipular imágenes en modo "F", es común convertirlas a otros modos (como "RGB") para su visualización o para guardar en formatos más comunes.

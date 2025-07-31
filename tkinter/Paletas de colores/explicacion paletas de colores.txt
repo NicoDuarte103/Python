@@ -1,0 +1,16 @@
+'''Parámetros de Image.convert()
+mode: (str) Especifica el modo al que deseas convertir la imagen. Algunos modos comunes son:
+
+"1": Blanco y negro (1 bit)
+"L": Escala de grises (8 bits)
+"P": Paleta de colores (8 bits)
+"RGB": Color (24 bits)
+"RGBA": Color con canal alfa (32 bits)
+"CMYK": Color con separación de colores (32 bits)
+matrix: (optional) Un objeto que define la matriz de conversión. Se utiliza para conversiones más complejas.
+
+dither: (bool or optional) Si se establece en True, se aplica un dithering a la imagen cuando se convierte a un modo con menos colores. Por defecto es False.
+
+palette: (optional) Una paleta que se puede usar para convertir imágenes en modo "P".
+
+options: (optional) Un diccionario de opciones adicionales para controlar la conversión, dependiendo del modo.'''
