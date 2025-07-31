@@ -1,0 +1,9 @@
+1- Leer un archivo de texto y mostrar su contenido en pantalla
+2-escribir un archivo de texto con contenido porporcionado por el usuario
+3-leer un archivo de texto y contar la cantidad de palabras que contiene
+4-leer un archivo de texto ym ostrar las 10 primeras lineas
+5-leer dos archviso de texto y combinar su contenido en un nuevo archivo
+6.leer un archivo de texto y mostrar las primeras 10 lineas
+7-leer un archivo de texto y escribir su contenido en un nuevo archvo,pero con las lineas en orden inverso
+8-leer un archivo de texto y encontrar l palabra mas larga que contiene
+9-leer un archivo de texto y encontrar la fecuencia de cada palabra,mostrando las 10 palabras mas comunes

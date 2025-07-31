@@ -1,0 +1,12 @@
+from io import *
+archivo1 = open("guia11\misma carpeta\datos.txt","r")
+contenido1= archivo1.read()
+print(contenido1)
+archivo1.close()
+archivo2 = open("guia11\misma carpeta\datos2.txt","r")
+contenido2=archivo2.read()
+print (contenido2)
+archivo2.close()
+archivo3 = open("guia11\misma carpeta\datos3.txt","a")
+archivo3.write(f"\n{contenido1}")
+archivo3.write(f"\n{contenido2}")

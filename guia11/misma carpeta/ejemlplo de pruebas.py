@@ -1,0 +1,18 @@
+from io import *
+arch1=open("guia11\misma carpeta\datos.txt","w") 
+arch1.write("Primer línea.\n") 
+arch1.write("Segunda línea.\n") 
+arch1.write("Tercer línea.\n") 
+arch1.write("Línea final.") 
+arch1.close() 
+print('-'*80)
+arch1=open("datos.txt","r")
+contenido=arch1.read()
+print(contenido)
+arch1.close()
+arch1=open("datos.txt","r")
+linea=arch1.readline()
+while linea!='':
+ print(linea, end='')
+ linea=arch1.readline()
+arch1.close()
