@@ -1,0 +1,63 @@
+#------------DICCIONARIOS-------------
+
+productos={"manzanas":39, "peras":32, "lechuga":17}
+print(productos)
+print('-'*50)
+print(' ')
+
+d1 = {
+  "Nombre": "Fede",
+  "Edad": 26,
+  "Documento": 40444444
+}
+print(d1)
+print('-'*50)
+print(' ')
+#-------Acceder y modifcar elementos de un diccionario------
+
+d1['Nombre'] = "Fede"
+print(d1)
+d1['Nombre'] = "Francisco"
+print(d1)
+print('-'*50)
+print(' ')
+
+d1['Direccion'] = "Calle Güemes"
+print(d1)
+
+print('-'*50)
+print(' ')
+
+# Imprime los key del diccionario
+for x in d1:
+    print(x)
+print(' ')
+print(' ')
+
+# Imprime los value del diccionario
+for x in d1:
+    print(d1[x])
+print('-'*50)
+print(' ')
+
+# Imprime los key y value del diccionario
+for x, y in d1.items():
+    print(x, y)
+print('-'*50)
+print(' ')
+
+
+anidado1 = {"a": 1, "b": 2}
+anidado2 = {"a": 1, "b": 2}
+d = {
+  "anidado1" : anidado1,
+  "anidado2" : anidado2
+}
+print(d)
+print('-'*50)
+print(' ')
+
+d = {'a': 1, 'b': 2}
+print(d.get('a')) #1
+print(d.get('z', 'No encontrado')) 
+#items()
